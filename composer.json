@@ -1,6 +1,36 @@
 {
+    "name": "restjs/rest-api",
+    "description": "Create Rest API Application",
+    "type": "project",
+    "keywords": [
+        "php",
+        "composer",
+        "rest-api",
+        "file-upload",
+        "web-services",
+        "jwt-authentication",
+        "my-sql"
+    ],
+    "homepage": "https://github.com/fullstackondemand/rest-api",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pramod Singh",
+            "email": "spramodgusain@gmail.com",
+            "homepage": "https://github.com/fullstackondemand",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
+        "php": "7.1.*|7.2.*|7.3.*|7.4.*|8.0.*|8.1.*",
         "restjs/php-rest-api": "^1.5",
         "vlucas/phpdotenv": "^5.6"
+    },
+    "scripts": {
+        "post-create-project-cmd": [
+            "mkdir uploads"
+        ]
     }
 }
