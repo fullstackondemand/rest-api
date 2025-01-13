@@ -1,0 +1,6 @@
+{
+    "require": {
+        "restjs/php-rest-api": "^1.5",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
