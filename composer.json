@@ -17,14 +17,6 @@
     ],
     "homepage": "https://github.com/fullstackondemand/rest-api",
     "license": "MIT",
-        "autoload": {
-        "psr-4": {
-            "RestAPI\\": "src/"
-        },
-        "files": [
-            "src/function.php"
-        ]
-    },
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
