@@ -1,10 +1,10 @@
 <?php
+use RestJS\App;
 
-/* Use External Class */
-use RestJS\PhpRestApi\Rest;
+require __DIR__ . '/vendor/autoload.php';
 
-/* Include Varibles File */
-require_once __DIR__ . '/vendor/autoload.php';
+/** Create Application */
+$app = App::create(__DIR__);
 
-/* Environment File Config */
-Rest::execute(__DIR__);
+// Application Execute or Run
+$app->run();
