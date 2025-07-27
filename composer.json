@@ -1,7 +1,7 @@
 {
     "name": "restjs/rest-api",
     "description": "RESTful API Boilerplate with OOP & MVC Pattern",
-    "version": "3.0.0",
+    "version": "3.0.2",
     "type": "project",
     "scripts": {
         "start": "php -S localhost:8888"
