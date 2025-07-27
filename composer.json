@@ -17,10 +17,18 @@
     ],
     "homepage": "https://github.com/fullstackondemand/rest-api",
     "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        },
+        "files": [
+            "src/functions.php"
+        ]
+    },
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
         "php": ">=8.2",
-        "restjs/php-rest-api": "^3.0"
+        "restjs/php-rest-api": "^3.0.2"
     }
 }
